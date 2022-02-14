@@ -1,173 +1,175 @@
+@media only screen and (max-width: 600px) {
+  .mountain-image {
+    width: 100vw;
+  }
+
+  .bottom-cloud {
+    left: 60vw;
+    bottom: 30vh;
+  }
+
+  .top-cloud {
+    right: 60vw;
+  }
+}
+
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #1a1c20;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #1a1c20;
 }
 
 h1 {
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color: #cf7500;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #cf7500;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #cf7500;
-    font-weight: normal;
-    padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #cf7500;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #f0a500;
+  font-family: "Montserrat", sans-serif;
+  color: #f0a500;
 }
 
 p {
-    line-height: 2;
+  line-height: 2;
 }
 
 hr {
-    border: dotted #1a1c20 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+  border: dotted #1a1c20 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 a {
-    font-family: 'Montserrat', sans-serif;
-    color: #1a1c20;
-    margin: 10px 20px;
-    text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #1a1c20;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #000000;
+  color: #000000;
 }
 
 .top-container {
-    background-color: #f4f4f4;
-    position: relative;
-    padding-top: 100px;
+  background-color: #f4f4f4;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
 .bottom-container {
-    background-color: #f0a500;
-    padding: 50px 0 20px;
+  background-color: #f0a500;
+  padding: 50px 0 20px;
 }
 
 .skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
 .pro {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .intro {
-    width: 30%;
-    margin: auto;
+  width: 30%;
+  margin: auto;
 }
 
 .contact-msg {
-    widows: 40%;
-    margin: 40px auto 60px;
+  widows: 40%;
+  margin: 40px auto 60px;
 }
 
 .copyright {
-    color: #f4f4f4;
-    font-size: 0.75rem;
-    padding: 20px 0;
+  color: #f4f4f4;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
 .profile-img {
-    width: 10%;
+  width: 10%;
+  border-radius: 200px 200px 200px 200px;
+  background-color: #000000;  
 }
 
 .computer-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .chilli-img {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
 .btn {
-    background: #CF7500;
-    background-image: -webkit-linear-gradient(top, #CF7500, #F0A500);
-    background-image: -moz-linear-gradient(top, #CF7500, #F0A500);
-    background-image: -ms-linear-gradient(top, #CF7500, #F0A500);
-    background-image: -o-linear-gradient(top, #CF7500, #F0A500);
-    background-image: linear-gradient(to bottom, #CF7500, #F0A500);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    height: 25px;
-    line-height: 25px;
-    color: #f4f4f4;
-    font-family: serif;
-    width: 135px;
-    font-size: 21px;
-    font-weight: 200;
-    padding: 19px;
-    box-shadow: 1px 1px 20px 0px #000000;
-    -webkit-box-shadow: 1px 1px 20px 0px #000000;
-    -moz-box-shadow: 1px 1px 20px 0px #000000;
-    border: solid #337FED 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
+  background: #cf7500;
+  background-image: -webkit-linear-gradient(top, #cf7500, #f0a500);
+  background-image: -moz-linear-gradient(top, #cf7500, #f0a500);
+  background-image: -ms-linear-gradient(top, #cf7500, #f0a500);
+  background-image: -o-linear-gradient(top, #cf7500, #f0a500);
+  background-image: linear-gradient(to bottom, #cf7500, #f0a500);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 25px;
+  line-height: 25px;
+  color: #f4f4f4;
+  font-family: serif;
+  width: 135px;
+  font-size: 21px;
+  font-weight: 200;
+  padding: 19px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
-    border: solid #337FED 1px;
-    background: #F0A500;
-    background-image: -webkit-linear-gradient(top, #F0A500, #CF7500);
-    background-image: -moz-linear-gradient(top, #F0A500, #CF7500);
-    background-image: -ms-linear-gradient(top, #F0A500, #CF7500);
-    background-image: -o-linear-gradient(top, #F0A500, #CF7500);
-    background-image: linear-gradient(to bottom, #F0A500, #CF7500);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    text-decoration: none;
+  border: solid #337fed 1px;
+  background: #f0a500;
+  background-image: -webkit-linear-gradient(top, #f0a500, #cf7500);
+  background-image: -moz-linear-gradient(top, #f0a500, #cf7500);
+  background-image: -ms-linear-gradient(top, #f0a500, #cf7500);
+  background-image: -o-linear-gradient(top, #f0a500, #cf7500);
+  background-image: linear-gradient(to bottom, #f0a500, #cf7500);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
 }
-
-@media only screen and (max-width: 600px) {
-    .mountain-image{
-        width:100vw;
-    }
-
-    .bottom-cloud{
-        left: 60vw;
-        bottom:25vh;
-    }
-
-    .top-cloud{
-        right: 60vw;
-    }
-  }
