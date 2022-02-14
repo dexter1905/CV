@@ -156,3 +156,18 @@ a:hover {
     border-radius: 8px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .mountain-image{
+        width:100vw;
+    }
+
+    .bottom-cloud{
+        left: 60vw;
+        bottom:25vh;
+    }
+
+    .top-cloud{
+        right: 60vw;
+    }
+  }
